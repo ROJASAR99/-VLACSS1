@@ -12,3 +12,15 @@ h1{
 p{
     color: #c86f6d;
 }
+div{
+    background-color: red;
+    color: white;
+    width: 956px;
+    height: 200px;
+    border: 5px solid black;
+
+
+}
+a{background-color: purple;
+
+}
