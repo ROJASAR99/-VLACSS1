@@ -1,0 +1,138 @@
+
+
+<!-- div.pato#cliente>p{Cliente $}*3 -->
+<div class="pato" id="cliente">
+    <p>Cliente 1</p>
+    <p>Cliente 2</p>
+    <p>Cliente 3</p>
+</div>
+
+
+<!-- Div con clase y un ID hijos lista con enlaces
+
+
+div.clase#ID>ul>li*5>a -->
+
+<div class="clase" id="ID">
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+</div>
+
+Hacer 4 div con la caja caja Caja una con P 
+div.Caja*4>p{Caja}
+
+<div class="Caja">
+    <p>Caja</p>
+</div>
+<div class="Caja">
+    <p>Caja</p>
+</div>
+<div class="Caja">
+    <p>Caja</p>
+</div>
+<div class="Caja">
+    <p>Caja</p>
+</div>
+Hacer un Div y adentro van a crear 3 div con la clase caja cada  una con P con el texto Hola Mundo 1,2,3
+div>div.Caja*3>p{Hola Mundo$}
+
+<div>
+    <div class="Caja">
+        <p>Hola Mundo1</p>
+    </div>
+    <div class="Caja">
+        <p>Hola Mundo2</p>
+    </div>
+    <div class="Caja">
+        <p>Hola Mundo3</p>
+    </div>
+</div>
+
+
+header class logo img src=ruta alt=x
+
+h.logo>div>img:[src="Img/pikachu.pgg"][alt="logo"]
+
+Nav ul li a 4
+
+nav>ul>li*4>a
+
+nav>ul>li*4>a[href="#"]{Enlace $}
+<nav>
+    <ul>
+        <li><a href="#">Enlace 1</a></li>
+        <li><a href="#">Enlace 2</a></li>
+        <li><a href="#">Enlace 3</a></li>
+        <li><a href="#">Enlace 4</a></li>
+    </ul>
+</nav>
+
+Main con una seccion
+adentro de cada seccion colocar 3 articulos cada uno con h2 texto  un parrafo adentro del parrafo un enlace y una imagen
+
+
+
+main>section>article*3>h2>p>a>img
+
+<main>
+    <section>
+        <article>
+            <h2>
+                <p><a href=""><img src="" alt=""></a></p>
+            </h2>
+        </article>
+        <article>
+            <h2>
+                <p><a href=""><img src="" alt=""></a></p>
+            </h2>
+        </article>
+        <article>
+            <h2>
+                <p><a href=""><img src="" alt=""></a></p>
+            </h2>
+        </article>
+    </section>
+</main>
+
+
+main>section>article*3>h2{titulo}+p>a[href="#"]+img[src="ruta"]    (+) quiere decir que los elementos son hermanos
+
+<main>
+    <section>
+        <article>
+            <h2>titulo</h2>
+            <p><a href="#"></a><img src="ruta" alt=""></p>
+        </article>
+        <article>
+            <h2>titulo</h2>
+            <p><a href="#"></a><img src="ruta" alt=""></p>
+        </article>
+        <article>
+            <h2>titulo</h2>
+            <p><a href="#"></a><img src="ruta" alt=""></p>
+        </article>
+    </section>
+</main>
+
+aside es la barra lateral
+
+aside.barra>h2{titulo}+p{}
+<aside class="barra">
+    <h2>titulo</h2>
+    <p>x</p>
+</aside>
+
+footer>p+ul>li*3>a{texto}
+<footer>
+    <p></p>
+    <ul>
+        <li><a href="">texto</a></li>
+        <li><a href="">texto</a></li>
+        <li><a href="">texto</a></li>
+    </ul>
+</footer>

@@ -1,26 +1,36 @@
-html{
-    background-color: gray ;
-}
 /* selector/etiqueta {
     Propiedad: valor;
 } */
 
-h1{
-    color: rgb(89, 221, 13);
-    background-color: rgb(0, 0, 0);
-}
-p{
-    color: #c86f6d;
-}
-div{
-    background-color: red;
-    color: white;
-    width: 956px;
-    height: 200px;
-    border: 5px solid black;
 
-
+body {
+    background-color: rgb(230, 130, 230)
 }
-a{background-color: purple;
 
+.caja1 {
+    color: green;
+    background-color: rgb(233, 223, 85);
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 20px 10px 20px 10px;
+    margin: 10px;
+    box-sizing: content-box;
+    
+}
+
+.caja2 {
+    color: black;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.caja3 {
+    color: orange;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
 }
